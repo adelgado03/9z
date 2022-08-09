@@ -40,7 +40,6 @@ padding: 15px;}
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-   
 }
 
 .nosotros-right {
@@ -95,6 +94,45 @@ padding: 15px;}
 .logros {
     height: 300px;
     
+}
+
+/* equipos */
+
+#equipos {
+    background-image: url(multimedia/equipos.jpg);
+    background-size: cover;
+}
+
+.titulo-equipos {
+    font-variant: small-caps;
+    padding-bottom: 15px;
+}
+
+.logos-equipos {
+    height: 200px;
+    width: 200px;
+
+}
+
+.jugadores-nombre{
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+.jugadores-csgo-foto {
+    height: 250px;
+    width: 500px;
+}
+
+.jugadores-val-foto {
+    height: 300px;
+    width: auto;
+}
+
+.section-equipos {
+    background: rgb(128,55,237);
+    background: linear-gradient(180deg, rgba(128,55,237,1) 0%, rgba(216,95,255,1) 100%);
+    padding-bottom: 15px;
 }
 
 
