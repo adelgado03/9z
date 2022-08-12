@@ -6,6 +6,11 @@
 
 /* header */
 
+.navbar-brand:hover {
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
+
 .nav-link {
     font-weight: bold;
     text-transform: uppercase;
@@ -32,6 +37,12 @@ padding: 15px;}
 .btn {
     background-color: #8037ed;
     font-variant: small-caps;
+    
+}
+
+.btn:hover{
+    transform: rotateY(15deg);
+    transition-duration: 2s;
 }
 
 .shop-left {
